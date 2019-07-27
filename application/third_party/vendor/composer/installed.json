@@ -1,0 +1,46 @@
+[
+    {
+        "name": "pipl/piplapis-php",
+        "version": "v5.0.6",
+        "version_normalized": "5.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/piplcom/piplapis-php.git",
+            "reference": "ee268327fefccf453e5cc5ed412d756c88f1624f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/piplcom/piplapis-php/zipball/ee268327fefccf453e5cc5ed412d756c88f1624f",
+            "reference": "ee268327fefccf453e5cc5ed412d756c88f1624f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.17"
+        },
+        "suggest": {
+            "ext-mbstring": "*"
+        },
+        "time": "2017-08-28T14:07:42+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/piplapis/",
+                "src/piplapis/data/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "APACHE2"
+        ],
+        "authors": [
+            {
+                "name": "Josh Liberty",
+                "email": "josh.liberty@pipl.com"
+            }
+        ],
+        "description": "Client library for use with the Pipl search API",
+        "homepage": "https://pipl.com/dev"
+    }
+]
