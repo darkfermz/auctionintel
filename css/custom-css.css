@@ -1,0 +1,530 @@
+/**
+* Custom CSS Overrides
+*/
+
+.sidebar  {
+    background: linear-gradient(126deg, #000, #547ca5);
+}
+.navbar.default-layout .navbar-brand-wrapper{
+	background: none;
+	height: auto !important;
+}
+.navbar.default-layout{
+	/*#5983e8  e26f00 9e237d*/
+	/*background: linear-gradient(120deg, #13064e, #952078);*/
+    background: linear-gradient(120deg, #000, #547ca5);
+}
+
+.navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
+    width: calc(255px - 50px);
+    height: 45px;
+   
+}
+    
+.sidebar .nav .nav-item .nav-link{
+	color: #f2f8f9;
+	height: 60px;
+	padding: 16px 25px;
+	
+}
+
+.sidebar .nav .nav-item.active > .nav-link{
+	background: #f2f8f9;
+    color: #1b0851;
+    border-left: 4px solid #354e68;
+    }
+.sidebar .nav .nav-item .nav-link .menu-title{
+	font-size: 15px;
+}
+.sidebar .nav .nav-item .nav-link i.menu-arrow:before{
+	color: #fff;
+}
+
+.sidebar .nav .nav-item .nav-link[aria-expanded="true"] {
+    background: #eff6fe;
+}
+
+.sidebar .nav .nav-item .nav-link[aria-expanded="true"] .menu-title, 
+.sidebar .nav .nav-item .nav-link[aria-expanded="true"] i.menu-arrow:before{
+	color: #1b0851;
+}
+.sidebar .nav .nav-item .nav-link[aria-expanded="true"] a:hover{
+text-decoration: underline;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    color: #1b0851;
+    padding: 0.75rem 0rem;
+    font-size: 15px;
+    
+}
+
+.sidebar .nav.sub-menu {
+   padding: 0 0 1rem 3.8rem;
+}
+
+.sidebar .nav.sub-menu .nav-item:hover > .nav-link{
+	text-decoration: underline;
+	
+}
+
+.mdi:before, .mdi-set{
+	font-size: 20px !important;
+}
+
+label.error{
+    color: #ff000069;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+.modal-content{
+	border-radius: 2px !important;
+}
+.bread-crumb > div {
+    margin-bottom: 25px;
+}
+
+
+.bread-crumb > div > span {
+    padding: 15px 0px;
+    border-radius: 3px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.bread-crumb h4
+{
+	color: #555 !important;
+    margin: 0 !important;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+
+.sidebar .nav .nav-item.nav-profile .nav-link .user-wrapper .profile-image img {
+   
+    border: 1px solid #424964;
+}
+
+#Employees_list .mdi:before, #Employees_list .mdi-set{
+	font-size: 15px !important;
+}
+
+
+.navbar.default-layout .navbar-menu-wrapper .navbar-nav.header-links .nav-item .nav-link{
+	padding: 16px 30px !important;
+}
+
+#Employees_list_filter input{
+	height: 35px;
+    width: 265px;
+    padding-right: 35px;
+    background: url(../images/search.png) no-repeat;
+    background-position: 230px 2px;
+
+}
+
+.page-item.active .page-link {
+    
+    background-color: #424964 !important;
+    border-color: #424964 !important;
+}
+.dataTables_paginate {
+	margin-top: 10px !important;
+}
+
+#bad_bidder_reviews_paginate{
+    width: 50%;
+    float: right;
+}
+
+.transform_20{
+	transform: rotate(25deg);
+   
+}
+.odd {
+	background: #eff6ff;
+}
+
+
+#bad_bidder_reviews .dataTables_empty {
+
+    padding: 15px !important;
+    font-size: 14px !important;
+    text-shadow: 0px 1px 0px #fff !important;
+}
+
+#bad_bidder_reviews_info{
+    width: 50%;
+    float: left;
+}
+
+#bad_bidder_reviews .comment_img{
+    text-align: center;
+    padding: 10px 0px;
+    width: 20%;
+    vertical-align: top;
+}
+#bad_bidder_reviews .comment_content{
+    width: 60%;
+    vertical-align: top;
+    font-size: 14px !important;
+    padding-top:15px;
+}
+#bad_bidder_reviews .date_added{
+    width: 20%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+
+
+/*Sub Rows Open*/
+td.details-control {
+    background: url('https://auctionintel.com/clients/images/tsorter_open.png') no-repeat;
+    cursor: pointer;
+    background-position: 40px 12px;
+}
+tr.shown td.details-control {
+    background: url('https://auctionintel.com/clients/images/tsorter_close.png') no-repeat;
+    background-position: 40px 12px;
+}
+
+/*Sub Rows Open*/
+
+.web-searches .card-title{
+    font-size: 18px !important;
+    margin:0 !important;
+}
+
+.nav-tabs .nav-link {
+    color: #778ca3 !important;
+    font-size:15px !important;
+}
+
+/*Deep Web Search CSS*/
+#deepSearch{
+    margin: 20px 0px;
+}
+
+ #deepSearch input{
+    width: 100%;
+    border: 1px solid #dae1ea;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    height: 40px;
+    background-position: 15px 13px;
+    padding-left: 40px;
+ }
+ .errorz{
+    border: 1px solid #fbc2c2 !important;
+ }
+ input::placeholder{
+  color: #cfcfcf;
+  opacity: 1;
+}
+ input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #cfcfcf;
+}
+
+ input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #cfcfcf;
+}
+ input.s-email{
+    background: url(https://auctionintel.com/clients/images/icons/email.png) no-repeat;
+ }
+ input.s-phone{
+    background: url(https://auctionintel.com/clients/images/icons/phone.png) no-repeat; 
+ }
+ input.s-fname , input.s-lname, input.s-mname{
+    background: url(https://auctionintel.com/clients/images/icons/fname.png) no-repeat;
+ }
+ input.s-country-code, input.s-state-code, input.s-city{
+    background: url(https://auctionintel.com/clients/images/icons/country.png) no-repeat;
+ }
+ input.s-username{
+    background: url(https://auctionintel.com/clients/images/icons/globe.png) no-repeat;
+ }
+ input.s-age{
+    background: url(https://auctionintel.com/clients/images/icons/calendar.png) no-repeat;
+ }
+ input.s-search-pointer{
+    background: url(https://auctionintel.com/clients/images/icons/search-pointer.png) no-repeat;
+ }
+
+ .search-btn-wrapper{
+
+    border: 1px solid #d9ebc7;
+    background: #f7fbf3;
+    padding: 20px 5px;
+    margin: 0px;
+   
+ }
+ #deepMsg{
+    display: none;
+    padding:20px;
+    font-size: 15px;
+    color: green;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 0px #fff;
+ }
+ #deepMsg img{
+    width: 20px;
+ }
+ #deepSearchResultsWrapper{
+   overflow: hidden;
+   color: #4b5258 !important;
+   letter-spacing: .5px;
+ }
+
+
+ #deepSearchResultsWrapper tr td{
+    vertical-align: top;
+    font-size: 13px;
+    padding: 10px 20px !important;
+    border-top: 1px solid #f2f2f2;
+ }
+ #deepSearchResultsWrapper table tr td img{
+    border-radius: 0 !important;
+    width: auto !important;
+    height: auto !important;
+
+ }
+
+ .avatar-small{
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    /*background: #512DA8;*/
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+ .avatar-comment{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+#deepSearchResultsWrapper h4{
+    
+}
+.no-img-single{
+    text-align: center;
+    font-size: 72px;
+    min-height: 150px;
+    line-height: 150px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    opacity: .8;
+}
+#url_links .icon_single{
+    border:1px solid #dae1ea; 
+    padding: 8px; 
+    opacity:.6;
+}
+.padd0{
+    padding: 0 !important;
+}
+.modal-content{
+    background: #fff !important;
+}
+
+#formBadBidders a{
+    color: #8a949e !important;
+}
+
+
+
+.suggest_msg{
+    margin: 10px auto;
+    width: 70%;
+    text-align: left;
+    color: #333;
+    text-shadow: 0px 1px 0px #fff;
+}
+#personDataTable h4, #personDataTable h3{
+    font-size: 20px !important;
+    color: #308ee0 !important;
+}
+
+#personDataTable tr:hover{
+    cursor: pointer;
+    background: #eff6ff;
+    text-shadow: 0px 1px 0px #fff;
+
+}
+ #personDataTable div{
+    margin-bottom: 8px;
+ }
+ .detailed-info{
+    border: 1px solid #e9ecef;
+
+ }
+
+ .detailed-info .avatar-small{
+    width: 150px !important;
+    height: 150px !important;
+    line-height: 150px !important;
+    margin: 20px;
+ }
+
+ .avatar-small img{
+    width: 150px !important;
+    height: 150px !important;
+   
+ }
+
+ .detailed-information{
+    padding: 20px;
+    
+ }
+.detailed-information .p-name{
+    font-size: 24px !important;
+    color: #308ee0 !important;
+}
+
+.detailed-information .p-gender, 
+.detailed-information .p-address, 
+.detailed-information .p-education, 
+.detailed-information .p-jobs{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/*End Deep Web Search CSS*/
+
+
+/*Customize Modal Dialog*/
+#biddersModal .modal-dialog{
+    width: 800px;
+
+}
+#biddersModal .Editor-editor{
+    height: 120px !important;
+}
+#biddersModal .error{
+    color: red !important;
+    font-size: 14px;
+}
+
+#biddersModal .line-control-menu-bar{
+   border: 1px solid #eee !important;
+   border-bottom: 0 !important;
+   background-image: linear-gradient(to bottom, #ffffff, #fafafa) !important;
+}
+#IdentityInput, #ProblemInput{
+    font-size: 14px !important;
+}
+
+#biddersModal .line-control-status-bar{
+    border: 0 !important;
+    background: none !important;
+    min-height: 0 !important;
+    line-height: 0 !important;
+
+}
+
+#identityReports tbody tr:hover{
+    cursor: pointer;
+}
+
+#identityReports .selected{
+    background: #ddf7ea;
+    text-shadow: 0px 1px 0px #fff;
+
+}
+
+#identityReports_wrapper .dt-buttons {
+    /*
+    width: 50% !important;
+    float: left !important;
+    padding: 3px;
+    */
+    margin-bottom:10px;
+}
+#identityReports_wrapper .dt-buttons .btn{
+    padding: 10px 15px !important;
+}
+
+#identityReports_filter input{
+    height: 35px;
+    line-height: 35px;
+}
+
+.select-item{
+    padding-left:10px;
+}
+
+
+/*bad bidders css*/
+#bad_bidders_comments a{
+    color: #8a949e !important;
+}
+#bad_bidders_comments .Editor-editor{
+    height: 120px;
+}
+
+.padd-top{
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 980px){
+.navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
+    width: calc(180px - 125px) !important;
+    height: 50px !important;
+
+}
+
+#biddersModal .modal-dialog{
+    width: 100%;
+
+}
+
+#identityReports_wrapper .dt-buttons{
+    width: 100% !important;
+    float: none !important;
+    text-align: center !important;
+    margin-bottom: 15px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    .avatar-comment{
+        width: 50px;
+        height: 50px;
+    }
+
+    .avatar-small {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+   }
+   #bad_bidder_reviews_info{
+    float: none;
+   }
+
+  
+
+   #deepSearchResultsWrapper table tr td.detailed-img img{
+        width: 50px !important;
+        height: 50px !important;
+   }
+
+   .navbar.default-layout .navbar-brand-wrapper {
+        width: 160px !important;
+        margin-left: 18px;
+    }
+    .content-wrapper{
+        padding: 0 !important;
+    }
+    .footer{
+        margin:0 !important;
+    }
+
+}
+
